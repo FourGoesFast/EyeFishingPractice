@@ -33,3 +33,6 @@ common.rejoin_world 215416301 30024732
 common.leave_world 215571893 30159234
 common.rejoin_world 228217802 30159234
 common.leave_world 228647612 30421539
+common.rejoin_world 228823440 30421539
+rsg.first_portal 230275098 31803042
+common.leave_world 236331869 36597109

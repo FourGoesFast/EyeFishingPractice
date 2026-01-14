@@ -9,11 +9,11 @@
   "world_name": "_Eye Fishing Practice",
   "is_cheat_allowed": false,
   "default_gamemode": 1,
-  "date": 1768366500726,
-  "retimed_igt": 30421539,
-  "final_igt": 30421539,
+  "date": 1768374184984,
+  "retimed_igt": 36597109,
+  "final_igt": 36597109,
   "stats_igt": 0,
-  "final_rta": 228647612,
+  "final_rta": 236331870,
   "open_lan": null,
   "timelines": [
     {
@@ -25,6 +25,16 @@
       "name": "enter_nether",
       "igt": 4641069,
       "rta": 6500137
+    },
+    {
+      "name": "nether_travel",
+      "igt": 31803042,
+      "rta": 230275098
+    },
+    {
+      "name": "nether_travel_home",
+      "igt": 31803042,
+      "rta": 230275098
     }
   ],
   "advancements": {
@@ -2167,104 +2177,336 @@
       },
       "igt": 30405089,
       "rta": 228630236
+    },
+    "minecraft:recipes/misc/wheat": {
+      "complete": true,
+      "is_advancement": false,
+      "criteria": {
+        "has_hay_block": {
+          "igt": 36205709,
+          "rta": 235868613
+        },
+        "has_the_recipe": {
+          "igt": 36205709,
+          "rta": 235868614
+        }
+      },
+      "igt": 36205759,
+      "rta": 235868650
+    },
+    "minecraft:recipes/redstone/redstone_lamp": {
+      "complete": true,
+      "is_advancement": false,
+      "criteria": {
+        "has_glowstone": {
+          "igt": 36305959,
+          "rta": 235990508
+        },
+        "has_the_recipe": {
+          "igt": 36305959,
+          "rta": 235990508
+        }
+      },
+      "igt": 36306009,
+      "rta": 235990566
+    },
+    "minecraft:adventure/root": {
+      "complete": true,
+      "is_advancement": true,
+      "criteria": {
+        "killed_by_something": {
+          "igt": 36352059,
+          "rta": 236036911
+        },
+        "killed_something": {
+          "igt": 36352059,
+          "rta": 236036911
+        }
+      },
+      "igt": 36352059,
+      "rta": 236036950
+    },
+    "minecraft:recipes/decorations/andesite_wall": {
+      "complete": true,
+      "is_advancement": false,
+      "criteria": {
+        "has_andesite": {
+          "igt": 36398509,
+          "rta": 236098554
+        },
+        "has_the_recipe": {
+          "igt": 36398509,
+          "rta": 236098554
+        }
+      },
+      "igt": 36398509,
+      "rta": 236098608
+    },
+    "minecraft:recipes/building_blocks/andesite_stairs_from_andesite_stonecutting": {
+      "complete": true,
+      "is_advancement": false,
+      "criteria": {
+        "has_andesite": {
+          "igt": 36398509,
+          "rta": 236098554
+        },
+        "has_the_recipe": {
+          "igt": 36398509,
+          "rta": 236098554
+        }
+      },
+      "igt": 36398509,
+      "rta": 236098608
+    },
+    "minecraft:recipes/decorations/andesite_wall_from_andesite_stonecutting": {
+      "complete": true,
+      "is_advancement": false,
+      "criteria": {
+        "has_andesite": {
+          "igt": 36398509,
+          "rta": 236098554
+        },
+        "has_the_recipe": {
+          "igt": 36398509,
+          "rta": 236098554
+        }
+      },
+      "igt": 36398509,
+      "rta": 236098608
+    },
+    "minecraft:recipes/building_blocks/andesite_stairs": {
+      "complete": true,
+      "is_advancement": false,
+      "criteria": {
+        "has_andesite": {
+          "igt": 36398459,
+          "rta": 236098554
+        },
+        "has_the_recipe": {
+          "igt": 36398459,
+          "rta": 236098554
+        }
+      },
+      "igt": 36398509,
+      "rta": 236098608
+    },
+    "minecraft:recipes/building_blocks/andesite_slab_from_andesite_stonecutting": {
+      "complete": true,
+      "is_advancement": false,
+      "criteria": {
+        "has_andesite": {
+          "igt": 36398459,
+          "rta": 236098553
+        },
+        "has_the_recipe": {
+          "igt": 36398459,
+          "rta": 236098553
+        }
+      },
+      "igt": 36398509,
+      "rta": 236098608
+    },
+    "minecraft:recipes/building_blocks/polished_andesite_stairs_from_andesite_stonecutting": {
+      "complete": true,
+      "is_advancement": false,
+      "criteria": {
+        "has_andesite": {
+          "igt": 36398459,
+          "rta": 236098553
+        },
+        "has_the_recipe": {
+          "igt": 36398459,
+          "rta": 236098553
+        }
+      },
+      "igt": 36398509,
+      "rta": 236098608
+    },
+    "minecraft:recipes/building_blocks/andesite_slab": {
+      "complete": true,
+      "is_advancement": false,
+      "criteria": {
+        "has_andesite": {
+          "igt": 36398459,
+          "rta": 236098552
+        },
+        "has_the_recipe": {
+          "igt": 36398459,
+          "rta": 236098553
+        }
+      },
+      "igt": 36398509,
+      "rta": 236098608
+    },
+    "minecraft:recipes/building_blocks/polished_andesite": {
+      "complete": true,
+      "is_advancement": false,
+      "criteria": {
+        "has_stone": {
+          "igt": 36398459,
+          "rta": 236098551
+        },
+        "has_the_recipe": {
+          "igt": 36398459,
+          "rta": 236098551
+        }
+      },
+      "igt": 36398509,
+      "rta": 236098608
+    },
+    "minecraft:recipes/building_blocks/polished_andesite_from_andesite_stonecutting": {
+      "complete": true,
+      "is_advancement": false,
+      "criteria": {
+        "has_andesite": {
+          "igt": 36398459,
+          "rta": 236098554
+        },
+        "has_the_recipe": {
+          "igt": 36398459,
+          "rta": 236098554
+        }
+      },
+      "igt": 36398509,
+      "rta": 236098608
+    },
+    "minecraft:recipes/building_blocks/polished_andesite_slab_from_andesite_stonecutting": {
+      "complete": true,
+      "is_advancement": false,
+      "criteria": {
+        "has_andesite": {
+          "igt": 36398459,
+          "rta": 236098552
+        },
+        "has_the_recipe": {
+          "igt": 36398459,
+          "rta": 236098552
+        }
+      },
+      "igt": 36398509,
+      "rta": 236098608
     }
   },
   "stats": {
     "7057902e-238b-487f-9ec4-ad263cf2e158": {
       "stats": {
         "minecraft:mined": {
-          "minecraft:soul_sand": 20,
-          "minecraft:gravel": 12
+          "minecraft:soul_sand": 85,
+          "minecraft:gravel": 50
         },
         "minecraft:dropped": {
-          "minecraft:gravel": 2,
-          "minecraft:acacia_boat": 1,
-          "minecraft:soul_sand": 1,
+          "minecraft:gravel": 9,
+          "minecraft:acacia_boat": 2,
+          "minecraft:soul_sand": 6,
           "minecraft:ender_pearl": 114,
-          "minecraft:nether_star": 268,
+          "minecraft:nether_star": 722,
+          "minecraft:ender_eye": 134,
+          "minecraft:oak_sign": 3,
           "minecraft:quartz_block": 1,
-          "minecraft:rabbit": 5,
-          "minecraft:ender_eye": 54,
+          "minecraft:rabbit": 449,
+          "minecraft:writable_book": 1,
+          "minecraft:iron_pickaxe": 1,
           "minecraft:chain_command_block": 10,
-          "minecraft:iron_shovel": 4,
-          "minecraft:ghast_tear": 212,
-          "minecraft:oak_sign": 3
+          "minecraft:iron_shovel": 15,
+          "minecraft:ghast_tear": 257,
+          "minecraft:fishing_rod": 1
         },
         "minecraft:used": {
-          "minecraft:glass": 13,
-          "minecraft:ender_eye": 157,
+          "minecraft:oak_fence": 2,
           "minecraft:water_bucket": 7,
-          "minecraft:writable_book": 1,
-          "minecraft:iron_shovel": 32,
-          "minecraft:command_block": 56,
+          "minecraft:writable_book": 8,
+          "minecraft:iron_shovel": 135,
           "minecraft:flint_and_steel": 2,
-          "minecraft:red_wool": 23,
-          "minecraft:oak_planks": 4,
-          "minecraft:lime_wool": 45,
           "minecraft:redstone": 25,
-          "minecraft:oak_sign": 48,
+          "minecraft:lime_wool": 45,
+          "minecraft:oak_planks": 4,
+          "minecraft:oak_sign": 65,
+          "minecraft:ender_pearl": 3,
+          "minecraft:chest": 9,
+          "minecraft:stone": 27,
+          "minecraft:redstone_block": 9,
+          "minecraft:player_head": 30,
+          "minecraft:torch": 3,
+          "minecraft:end_stone_brick_wall": 1,
+          "minecraft:soul_sand": 995,
+          "minecraft:sand": 245,
+          "minecraft:tnt": 39,
+          "minecraft:magenta_bed": 1,
+          "minecraft:obsidian": 636,
+          "minecraft:redstone_torch": 25,
+          "minecraft:glass": 13,
+          "minecraft:lever": 1,
+          "minecraft:ender_eye": 652,
+          "minecraft:command_block": 56,
+          "minecraft:red_wool": 23,
           "minecraft:stone_button": 12,
           "minecraft:quartz_block": 501,
-          "minecraft:ender_pearl": 3,
-          "minecraft:chest": 4,
-          "minecraft:stone": 26,
-          "minecraft:redstone_block": 3,
-          "minecraft:gravel": 63,
-          "minecraft:player_head": 22,
+          "minecraft:gravel": 1110,
+          "minecraft:item_frame": 1,
           "minecraft:bedrock": 8,
-          "minecraft:fishing_rod": 620,
-          "minecraft:torch": 3,
           "minecraft:jungle_sign": 1,
-          "minecraft:sand": 245,
+          "minecraft:fishing_rod": 1077,
+          "minecraft:glowstone": 32,
           "minecraft:repeater": 9,
-          "minecraft:soul_sand": 50,
+          "minecraft:hay_block": 1,
           "minecraft:written_book": 1,
-          "minecraft:magenta_bed": 1,
-          "minecraft:chain_command_block": 240,
-          "minecraft:repeating_command_block": 18,
-          "minecraft:observer": 7,
-          "minecraft:obsidian": 636,
-          "minecraft:redstone_torch": 25
+          "minecraft:chain_command_block": 247,
+          "minecraft:repeating_command_block": 20,
+          "minecraft:observer": 7
         },
         "minecraft:picked_up": {
-          "minecraft:ghast_tear": 1,
           "minecraft:fishing_rod": 1,
-          "minecraft:chain_command_block": 1,
-          "minecraft:gravel": 77,
-          "minecraft:flint": 1,
-          "minecraft:stone_button": 4,
-          "minecraft:redstone": 4,
+          "minecraft:andesite": 3,
+          "minecraft:flint": 4,
+          "minecraft:dirt": 26,
+          "minecraft:end_stone_brick_wall": 1,
           "minecraft:iron_axe": 1,
+          "minecraft:flint_and_steel": 1,
+          "minecraft:item_frame": 1,
           "minecraft:iron_shovel": 2,
-          "minecraft:oak_sign": 10,
-          "minecraft:ender_eye": 62,
+          "minecraft:oak_sign": 11,
           "minecraft:redstone_torch": 11,
           "minecraft:written_book": 1,
+          "minecraft:ender_eye": 67,
           "minecraft:iron_pickaxe": 1,
-          "minecraft:soul_sand": 84,
+          "minecraft:rabbit": 1,
+          "minecraft:soul_sand": 145,
+          "minecraft:ghast_tear": 1,
+          "minecraft:chain_command_block": 1,
+          "minecraft:oak_fence": 64,
+          "minecraft:gravel": 109,
+          "minecraft:stone_button": 4,
+          "minecraft:redstone": 4,
+          "minecraft:lever": 2,
+          "minecraft:writable_book": 1,
+          "minecraft:hay_block": 64,
           "minecraft:nether_star": 4,
           "minecraft:ender_pearl": 16
         },
+        "minecraft:killed": {
+          "minecraft:cow": 2
+        },
         "minecraft:custom": {
-          "minecraft:time_since_rest": 84063,
-          "minecraft:sprint_one_cm": 49319,
-          "minecraft:damage_taken": 310,
-          "minecraft:walk_one_cm": 409348,
-          "minecraft:drop": 636,
+          "minecraft:mob_kills": 2,
+          "minecraft:play_one_minute": 599105,
+          "minecraft:leave_game": 9,
+          "minecraft:time_since_death": 4609,
+          "minecraft:time_since_rest": 4629,
+          "minecraft:walk_one_cm": 472109,
+          "minecraft:sprint_one_cm": 56161,
+          "minecraft:damage_taken": 490,
+          "minecraft:drop": 1686,
           "minecraft:damage_dealt": 28,
           "minecraft:swim_one_cm": 387,
-          "minecraft:fly_one_cm": 5933735,
-          "minecraft:open_chest": 33,
-          "minecraft:crouch_one_cm": 52781,
-          "minecraft:play_one_minute": 475585,
-          "minecraft:deaths": 2,
-          "minecraft:sneak_time": 25690,
-          "minecraft:walk_under_water_one_cm": 70681,
-          "minecraft:jump": 1859,
-          "minecraft:leave_game": 8,
-          "minecraft:walk_on_water_one_cm": 4345,
-          "minecraft:time_since_death": 84042,
-          "minecraft:fall_one_cm": 4045
+          "minecraft:fly_one_cm": 6248320,
+          "minecraft:open_chest": 42,
+          "minecraft:crouch_one_cm": 55125,
+          "minecraft:deaths": 6,
+          "minecraft:sneak_time": 27437,
+          "minecraft:walk_under_water_one_cm": 83358,
+          "minecraft:jump": 4828,
+          "minecraft:walk_on_water_one_cm": 5510,
+          "minecraft:fall_one_cm": 8140
         }
       },
       "DataVersion": 2567
