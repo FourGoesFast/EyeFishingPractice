@@ -467,6 +467,12 @@
     },
     "done": true
   },
+  "minecraft:story/obtain_armor": {
+    "criteria": {
+      "iron_boots": "2026-01-21 16:55:52 -0500"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_andesite": {
     "criteria": {
       "has_stone": "2026-01-14 01:59:11 -0500"
